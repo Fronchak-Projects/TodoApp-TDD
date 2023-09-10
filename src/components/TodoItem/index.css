@@ -1,0 +1,23 @@
+.todo-item-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4em;
+}
+
+.todo-item-container input {
+    border: 1px solid #AAA;
+}
+
+.todo-item-container span {
+    flex: 1;
+}
+
+.todo-item-container i {
+    cursor: pointer;
+}
+
+.line-through {
+    color: #BBB;
+    text-decoration: line-through;
+}
