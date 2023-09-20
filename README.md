@@ -1,6 +1,7 @@
 # Todo App
 
 This project was develop using TDD in React with TypeScript
+[Click here](https://todo-app-fronchak-projects.vercel.app) to go to the project page 
 
 ## Requirements
 * Node 18
