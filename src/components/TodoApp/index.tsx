@@ -45,7 +45,7 @@ const TodoApp = () => {
                 <TodoForm onSubmit={addTodo} />
             </div>
             { todos.length === 0 ? (
-                <p>You don't have any todo registered</p>
+                <p className='text-center'>You don't have any todo registered</p>
             ) : (
                 <TodosContainer todos={todos} onChange={switchStatus} onDelete={removeTodo} />
             ) }
